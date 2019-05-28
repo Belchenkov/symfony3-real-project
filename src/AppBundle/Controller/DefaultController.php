@@ -22,6 +22,6 @@ class DefaultController extends Controller
      */
     public function feedbackAction()
     {
-        return $this->render('default/feedback.html.twig');
+        return $this->render('@App/default/feedback.html.twig');
     }
 }
