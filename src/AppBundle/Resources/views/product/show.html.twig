@@ -1,0 +1,13 @@
+{% extends '@App/layout.html.twig' %}
+
+{% block body %}
+   <h1>Product {{ product.id }}</h1>
+   <hr>
+   <h2>Title: {{ product.title }}</h2>
+   <h3>Price: {{ product.price }}</h3>
+   <h3>Description: {{ product.description }}</h3>
+{% endblock %}
+
+{% block title %}Products Page{% endblock %}
+
+{% block stylesheets %}{% endblock %}
